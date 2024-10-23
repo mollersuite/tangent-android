@@ -1,4 +1,4 @@
-package uk.cetera.etcet.ui.theme
+package uk.cetera.saves.ui.theme
 
 import androidx.compose.ui.graphics.Color
 

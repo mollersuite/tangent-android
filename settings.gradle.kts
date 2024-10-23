@@ -19,5 +19,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "Etcet"
+rootProject.name = "Tangent"
 include(":app")

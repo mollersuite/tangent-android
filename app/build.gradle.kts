@@ -5,11 +5,11 @@ plugins {
 }
 
 android {
-    namespace = "uk.cetera.etcet"
+    namespace = "uk.cetera.saves"
     compileSdk = 34
 
     defaultConfig {
-        applicationId = "uk.cetera.etcet"
+        applicationId = "uk.cetera.saves"
         minSdk = 24
         targetSdk = 34
         versionCode = 1
@@ -28,14 +28,15 @@ android {
         }
     }
     compileOptions {
-        sourceCompatibility = JavaVersion.VERSION_1_8
-        targetCompatibility = JavaVersion.VERSION_1_8
+        sourceCompatibility = JavaVersion.VERSION_11
+        targetCompatibility = JavaVersion.VERSION_11
     }
     kotlinOptions {
-        jvmTarget = "1.8"
+        jvmTarget = "11"
     }
     buildFeatures {
         compose = true
+        viewBinding = true
     }
 }
 

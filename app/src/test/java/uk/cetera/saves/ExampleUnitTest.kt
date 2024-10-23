@@ -1,4 +1,4 @@
-package uk.cetera.etcet
+package uk.cetera.saves
 
 import org.junit.Test
 
